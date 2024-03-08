@@ -1,5 +1,11 @@
 # Ramayan Custom Word3Vec (word embeddings)
 
+<!-- ![Ramayan Pic](https://upload.wikimedia.org/wikipedia/commons/a/a0/Avatars.jpg) -->
+
+<p align="left">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Avatars.jpg" alt="Ramayan Pic from Wikipedia">
+</p>
+
 This repository contains the results of a comprehensive analysis of the Ramayan text. The process involved collecting the Ramayan PDF, parsing the document, and extracting the textual data. The data underwent initial manual cleaning for a quick overview, followed by a series of NLP-based text cleaning procedures. And finally training a custom Word2Vec model with CBOW and Skipgram architechure.
 
 ## Data Cleaning Steps:
