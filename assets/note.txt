@@ -1,0 +1,1 @@
+this directory contained the binaries of trained model, but the model size was in range of 800 wo those files were excluded.
