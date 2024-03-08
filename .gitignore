@@ -159,3 +159,5 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 .DS_store
+assets/cbow_ramayan_word2vec.bin
+assets/skipgram_ramayan_word2vec.bin
