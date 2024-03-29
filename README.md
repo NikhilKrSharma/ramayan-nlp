@@ -1,12 +1,12 @@
-# Ramayan Custom Word3Vec (word embeddings)
+# Custom Word2Vec (word embeddings)
 
 <!-- ![Ramayan Pic](https://upload.wikimedia.org/wikipedia/commons/a/a0/Avatars.jpg) -->
 
-<p align="left">
+<!-- <p align="left">
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Avatars.jpg" alt="Ramayan Pic from Wikipedia">
-</p>
+</p> -->
 
-This repository contains the results of a comprehensive analysis of the Ramayan text. The process involved collecting the Ramayan PDF, parsing the document, and extracting the textual data. The data underwent initial manual cleaning for a quick overview, followed by a series of NLP-based text cleaning procedures. And finally training a custom Word2Vec model with CBOW and Skipgram architechure.
+This repository contains the results of a comprehensive analysis of the carious texts. The process involved collecting the PDFs, parsing the document, and extracting the textual data. The data underwent initial manual cleaning for a quick overview, followed by a series of NLP-based text cleaning procedures. And finally training a custom Word2Vec model with CBOW and Skipgram architechure.
 
 ## Data Cleaning Steps:
 
@@ -19,7 +19,7 @@ This repository contains the results of a comprehensive analysis of the Ramayan 
 
 ## Word2Vec Model Building:
 
-- Employed the `textract` library to build Word2Vec models.
+- Employed the `textract/gensim` library to build Word2Vec models.
 - Two variations of the model were created:
    1. Continuous Bag of Words (CBOW) Method
    2. Skip-gram Method
